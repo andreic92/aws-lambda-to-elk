@@ -13,5 +13,5 @@ Go project that is responsible with processing Cloud Watch logs and send these t
 
 ### Overview
 It starts the handler as a lambda function.
-During initialization, a check to see if the ES index exists and if it doesn't, it tries to create it.
-The handler is designed to parse logs received from Cloud Watch, meaning that these has to be decoded (as are base64 encoded) and gunzip the data.
+During initialization, a check to see if the ES index exists is performed and if it the index does not exist, it tries to create it.
+The handler is designed to parse logs received from Cloud Watch, meaning that these has to be decoded (as they are base64 encoded) and unzip the data.
