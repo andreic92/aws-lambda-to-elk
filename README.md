@@ -1,7 +1,7 @@
 # aws-lambda-to-elk
 
 ## Description
-Go project that is responsible with processing Cloud Watch logs and send these to an ES instance.
+Go project that is responsible with processing Cloud Watch logs and send them to an ES instance.
 
 ## How does it work
 
