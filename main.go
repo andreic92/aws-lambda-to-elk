@@ -12,9 +12,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/andreic92/lambdatest/elastic"
 	"github.com/aws/aws-lambda-go/lambda"
 	log "github.com/sirupsen/logrus"
+	"github.com/yottta/aws-lambda-to-elk/elastic"
 )
 
 const (

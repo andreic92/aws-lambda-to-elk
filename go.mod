@@ -1,4 +1,4 @@
-module github.com/andreic92/lambdatest
+module github.com/yottta/aws-lambda-to-elk
 
 go 1.12
 
